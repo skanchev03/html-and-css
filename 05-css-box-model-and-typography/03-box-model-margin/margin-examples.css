@@ -1,0 +1,18 @@
+section {
+    border: 2px solid black;
+}
+
+.uniform {
+    margin: 20px;
+}
+
+.non-uniform {
+    margin-top: 10px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+.negative {
+    margin: -20px;
+}
