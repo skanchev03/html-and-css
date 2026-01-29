@@ -1,0 +1,26 @@
+.button {
+    padding: 10px 20px;
+    text-align: center;
+    background-color: lightgrey;
+    border-radius: 0.25em;
+    text-decoration: none;
+    border: 1px solid lightgrey;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+}
+
+.primary {
+    background-color: orange;
+}
+
+.secondary {
+    background-color: lightyellow;
+}
+
+.outline {
+    background-color: white;
+}

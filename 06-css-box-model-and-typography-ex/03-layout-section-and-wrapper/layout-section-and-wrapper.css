@@ -1,0 +1,15 @@
+main {
+    border: 2px solid green;
+}
+
+section {
+    border: 2px solid black;
+    padding: 18px 54px;
+    margin: 36px;
+}
+
+article {
+    border: 2px solid blue;
+    padding: 36px;
+    margin: 18px;
+}

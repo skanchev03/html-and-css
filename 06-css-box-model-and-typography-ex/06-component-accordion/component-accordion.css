@@ -1,0 +1,40 @@
+.acc{
+    width: 75%;
+    margin: auto;
+    border: 1px solid black;
+}
+
+.item {
+    border-bottom: 1px solid black;
+}
+
+.item input {
+    display: none;
+}
+
+.item label {
+    display: block;
+    padding: 15px 20px;
+    cursor: pointer;
+    border-bottom: 1px solid white;
+}
+
+.item p {
+    display: none;
+    padding: 0 20px 15px;
+}
+
+.item input:checked~p {
+    display: block;
+}
+
+.item label::before {
+    content: ">";
+    margin-right: 10px;
+    display: inline-block;
+    width: 20px;
+}
+
+.item input:checked+label::before {
+    content: "v";
+}

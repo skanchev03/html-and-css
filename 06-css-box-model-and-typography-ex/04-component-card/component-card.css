@@ -1,0 +1,19 @@
+.card-container {
+    width: 25%;
+    margin: auto;
+    margin-top: 36px;
+    ;
+}
+
+.img-container {
+    width: 100%;
+}
+
+.text-container {
+    padding: 18px;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+}
