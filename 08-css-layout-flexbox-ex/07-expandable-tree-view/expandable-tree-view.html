@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expandable Tree View</title>
+    <link rel="stylesheet" href="expandable-tree-view.css">
+</head>
+
+<body>
+    <ul class="tree">
+        <li>
+            <input type="checkbox" id="giant-planets">
+            <label for="giant-planets">Giant planets</label>
+            <ul>
+                <li>
+                    <input type="checkbox" id="gas-giants">
+                    <label for="gas-giants">Gas giants</label>
+                    <ul>
+                        <li>Jupiter</li>
+                        <li>Saturn</li>
+                    </ul>
+                </li>
+
+                <li>
+                    <input type="checkbox" id="ice-giants">
+                    <label for="ice-giants">Ice giants</label>
+                    <ul>
+                        <li>Uranus</li>
+                        <li>Neptune</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</body>
+
+</html>

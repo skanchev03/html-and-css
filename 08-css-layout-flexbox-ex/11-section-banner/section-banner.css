@@ -1,0 +1,44 @@
+.product-ctr > div {
+    padding: 20px;
+}
+
+.product-ctr {
+    display: flex;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 20px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.heading {
+    font-weight: 600;
+    font-size: 1.8em;
+}
+
+img {
+    width: 100%;
+    border-radius: 5px;
+}
+.img-ctr{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+button{
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.chat-btn{
+    background-color: blueviolet;
+    color: white;
+}
+.text-ctr{
+    width: 70%;
+}
+
+button:hover{
+    cursor: pointer;
+}

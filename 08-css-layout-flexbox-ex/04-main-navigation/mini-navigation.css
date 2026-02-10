@@ -1,0 +1,33 @@
+button {
+    border: none;
+}
+
+body {
+    background-color: white;
+}
+
+main {
+    width: 90%;
+    margin: auto;
+    background-color: lightgray;
+}
+
+.container {
+    display: flex
+}
+
+.item {
+    padding: 1em;
+    margin: 1em;
+    color: orange;
+    background-color: white;
+    border-radius: 5px;
+    font-weight: 800;
+}
+
+.item:hover {
+    cursor:pointer;
+    color: white;
+    background-color: orange;
+    transform: scale(1.2);
+}

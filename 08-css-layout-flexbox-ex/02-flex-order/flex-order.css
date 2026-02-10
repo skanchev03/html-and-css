@@ -1,0 +1,42 @@
+body {
+    background-color: lightgray;
+}
+
+div {
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    border-radius: 5px;
+    padding: 1em;
+}
+
+header, section, footer {
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding: 2em;
+    margin: 1em;
+}
+
+.main {
+    display: flex;
+}
+
+.main section:first-of-type {
+    width: 70%;
+}
+
+.main section:last-of-type {
+    width: 30%;
+}
+
+.main-2 {
+    display: flex;
+}
+
+.main-2 section:first-of-type {
+    width: 30%;
+}
+
+.main-2 section:last-of-type {
+    width: 70%;
+}
